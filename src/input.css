@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply brightness-50;
+}
+.wrapper-active {
+  @apply border-2 border-indigo-600;
+}
